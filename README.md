@@ -1,4 +1,4 @@
-# Robot Learning Atlas · 机器人学习图谱
+# Robot Learning · 机器人学习
 
 从一个训练任务出发，读懂机器人学习框架怎样组织仿真、观测、动作、奖励和策略。
 
@@ -26,13 +26,15 @@
 
 [课程目录](docs/curriculum.md) 对每个单元标明已有章节与剩余内容；目录完整不代表课程已经写完。已有 E0–E4：导航与基础、三框架原生任务，以及 mjlab 观测/动作、随机化/课程和固定算法版本的 PPO 专题。E5 原生运行与短训练按本轮约定留到后续；E6 迁移、独立评估和最终审校仍待推进。
 
-## 与 Sim Atlas 的衔接
+## 与 Sim Learning 的衔接
 
-[Sim Atlas](https://github.com/huangkiki/sim-atlas) 讲物理引擎的模型、状态、控制、接触与求解。本仓从这些接口向上讲任务和学习流程：
+物理仿真先修推荐 [Physics-Based Simulation 伴读路线](https://github.com/huangkiki/sim-learning/blob/main/docs/physics-based-simulation.md)，再进入引擎和本仓学习流程。
+
+[Sim Learning](https://github.com/huangkiki/sim-learning) 讲物理引擎的模型、状态、控制、接触与求解。本仓从这些接口向上讲任务和学习流程：
 
 ```text
 物理引擎与原生接口         → 任务、观测、奖励与重置 → rollout、算法更新与评估
-Sim Atlas                  Robot Learning Atlas
+Sim Learning                 Robot Learning
 ```
 
 阅读中遇到质量、惯量、接触力或积分器问题，回到对应引擎课程；遇到观测时刻、动作缩放、采样和重置问题，沿本仓课程继续。首期三个框架共用一个课程仓，各自保留独立章节和固定版本。

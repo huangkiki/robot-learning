@@ -1,6 +1,6 @@
 # 来源与许可
 
-原创课程正文、比较说明和检查脚本采用 [Apache-2.0](LICENSE)。课程组织参考 [Sim Atlas](https://github.com/huangkiki/sim-atlas) 的双路线与证据分级，具体课程围绕机器人学习框架重新编写。
+原创课程正文、比较说明和检查脚本采用 [Apache-2.0](LICENSE)。课程组织参考 [Sim Learning](https://github.com/huangkiki/sim-learning) 的双路线与证据分级，具体课程围绕机器人学习框架重新编写。
 
 | 上游 | 固定提交 | 使用方式 |
 |---|---|---|

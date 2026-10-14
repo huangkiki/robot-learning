@@ -1,4 +1,4 @@
-# Robot Learning Atlas maintenance
+# Robot Learning maintenance
 
 - Use autodev for implementation and recover status from docs/roadmap.md and docs/validation.md before starting another slice.
 - Use [GitHub Project #3](https://github.com/users/huangkiki/projects/3) and its linked issues for the queue, dependencies and acceptance. Synchronize actual status at start, blockage and delivery, and verify remote readback.
@@ -12,4 +12,4 @@
 - Keep the README as the homepage. Do not create a website framework, benchmark platform, scheduler, issue taxonomy or new infrastructure without a current need.
 - Run python3 scripts/check_docs.py, python3 -m compileall -q scripts mjlab/examples learning/examples, python3 learning/examples/rollout_math.py and git diff --check. For source changes run scripts/verify_sources.py with all pinned checkouts and the affected course example.
 - Preserve user's unrelated changes. No credentials, addresses, machine-specific paths, cached environments, models or training artifacts in commits.
-- Local development, GitHub visibility/publication, merge/release and scheduling are distinct scopes. Follow the user's existing authorization, including Obsidian course archival and synchronization.
+- Local development, GitHub visibility/publication, merge/release and scheduling are distinct scopes. Follow the user's existing authorization. Do not archive or synchronize Obsidian unless explicitly requested.

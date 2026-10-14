@@ -65,7 +65,7 @@ Git 工作树中的未提交上游修改不会参与源码核对，因为工具�
 
 ## 发布验证
 
-远端当前提交的自动检查见 [Course checks](https://github.com/huangkiki/robot-learning-atlas/actions/workflows/docs.yml)。GitHub CI 只执行本仓链接、语法、标量 GAE 和 diff 检查，不下载上游仓，也不跑仿真。Issue 的交付记录保留实际 head 与该次 CI 结果。
+远端当前提交的自动检查见 [Course checks](https://github.com/huangkiki/robot-learning/actions/workflows/docs.yml)。GitHub CI 只执行本仓链接、语法、标量 GAE 和 diff 检查，不下载上游仓，也不跑仿真。Issue 的交付记录保留实际 head 与该次 CI 结果。
 
 ## 未执行范围
 

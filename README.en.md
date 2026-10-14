@@ -1,4 +1,4 @@
-# Robot Learning Atlas
+# Robot Learning
 
 Learn how robot learning frameworks turn simulation into tasks, observations, actions, rewards, policy training, and evaluation.
 
@@ -19,7 +19,7 @@ Start with the [mjlab lesson](mjlab/01-g1-task.md). Its [source inspection examp
 
 Two routes organize the planned curriculum: **A**, author and operate tasks; **B**, understand configuration, lifecycle, managers, data movement and the learner interface. E0–E4 cover foundations, native task walkthroughs for all three frameworks, and mjlab observation/action, randomization/curriculum and PPO internals. E5 native execution and short training are deferred by agreement. E6 migration, independent evaluation and final course review remain pending.
 
-[Sim Atlas](https://github.com/huangkiki/sim-atlas) teaches physics engines and native simulation APIs. This companion repository teaches the task and learning layers above them. All three frameworks initially share this repository.
+Start with the [Physics-Based Simulation study route](https://github.com/huangkiki/sim-learning/blob/main/docs/physics-based-simulation.md#english-reading-guide) for physics prerequisites. [Sim Learning](https://github.com/huangkiki/sim-learning) teaches physics engines and native simulation APIs. This companion repository teaches the task and learning layers above them. All three frameworks initially share this repository.
 
 The source snapshot was reviewed on 2026-10-09; commits and file digests are in [sources.json](docs/sources.json). [Validation](docs/validation.md) records source review and execution of the course's static inspection and scalar GAE examples. Native simulation, training, evaluation, performance and robot deployment have not been validated here.
 

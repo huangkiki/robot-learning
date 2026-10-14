@@ -36,4 +36,4 @@
 5. [UniLab 导读](../unilab/README.md) → [Go2 首课](../unilab/01-native-task.md)：追踪配置、后端和 learner。
 6. [生命周期对照](../comparisons/lifecycle.md)：解释哪些语义可对应、哪些必须重新检查。
 
-物理先修按需阅读 [Sim Atlas 共同基础](https://github.com/huangkiki/sim-atlas/blob/main/docs/foundations.md)。无需先学完六个引擎。
+物理先修按需阅读 [Sim Learning 共同基础](https://github.com/huangkiki/sim-learning/blob/main/docs/foundations.md)。无需先学完六个引擎。
